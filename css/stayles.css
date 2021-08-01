@@ -12,7 +12,7 @@ body {
   font-family: Roboto, sans-serif;
 }
 .container {
-  width: 1230;
+  width: 1230px;
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
@@ -103,11 +103,26 @@ body {
   color: #2196f3;
 }
 
-/*section*/
+/* HERO */
 .hero {
   text-align: center;
   background: #2f303a;
 }
+
+/*.hero {
+  max-width: 1600px;
+  max-height: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  outline: 2px outset red;
+  background-image: url("../image/Img.fond.jpg");
+  background-image: linear-gradient(to bottom, rgba(47, 48, 58, 0.4));
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  text-align: center;
+}*/
 
 .hero-title {
   width: 696px;
@@ -199,23 +214,22 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
 }
-
 .picture {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
 }
 
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
 .picture:nth-child(3n) {
   margin-right: 0;
 }
 .effigy {
   width: calc(100% / 3 - 60px);
   margin-left: 30px;
-}
-img {
-  display: block;
-  max-width: 100%;
-  height: auto;
 }
 .effigy:nth-child(3n) {
   margin-right: 0;
@@ -224,13 +238,10 @@ img {
 /* team list */
 .foto {
   display: flex;
-  margin-right: 30px;
+  justify-content: center;
 }
 .face {
   margin-right: 30px;
-}
-
-.card {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
@@ -259,6 +270,7 @@ img {
 .desc {
   padding-bottom: 30px;
   margin-top: 0;
+  margin-bottom: 0;
   text-align: center;
   color: #757575;
 
