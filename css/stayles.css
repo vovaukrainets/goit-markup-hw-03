@@ -6,6 +6,9 @@
 }
 
 body {
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
   font-family: Roboto, sans-serif;
 }
 .container {
@@ -103,11 +106,7 @@ body {
 
 /* HERO */
 .hero {
-  padding: 200px 452px 280px 452px;
-  width: 696px;
-  height: 120px;
-  margin-left: auto;
-  margin-right: auto;
+  padding: 200px 0px 200px 0;
   text-align: center;
   background-color: #2f303a;
 }
@@ -127,10 +126,11 @@ body {
 }*/
 
 .hero-title {
+  width: 696px;
+  margin-left: auto;
+  margin-right: auto;
   margin-top: 0;
   margin-bottom: 30px;
-  margin-left: 0;
-  margin-right: 0;
 
   font-weight: 900;
   font-size: 44px;
@@ -163,7 +163,7 @@ body {
 .section {
   padding-top: 94px;
   padding-bottom: 94px;
-  background-color: #e5e5e5;
+  color: #e5e5e5;
 }
 .advantage {
   display: flex;
