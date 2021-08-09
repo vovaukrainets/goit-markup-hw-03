@@ -103,15 +103,17 @@ body {
 .auth-nav :focus {
   color: #2196f3;
 }
+.cell::before {
+  background-image: ;
+}
 
 /* HERO */
 .hero {
   padding: 200px 0px 200px 0;
   text-align: center;
-  background-color: #2f303a;
 }
 
-/*.hero {
+.hero {
   max-width: 1600px;
   max-height: 600px;
   margin-left: auto;
@@ -121,9 +123,8 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-
   text-align: center;
-}*/
+}
 
 .hero-title {
   width: 696px;
@@ -139,7 +140,6 @@ body {
   letter-spacing: 0.06em;
   color: #ffffff;
   text-transform: uppercase;
-  background-color: #2f303a;
 }
 
 .button {
@@ -173,7 +173,7 @@ body {
   flex-basis: calc(100% / 4 - 30px);
   margin-left: 30px;
 }
-/*.item::before {
+.item::before {
   display: block;
   content: "";
   height: 120px;
@@ -204,7 +204,7 @@ body {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-}*/
+}
 
 .item:nth-child(4n) {
   margin-right: 0;
